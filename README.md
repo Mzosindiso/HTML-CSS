@@ -21,3 +21,4 @@ HTTPS - HyperText Transport Protocol Secure.
 
 SVG format it is good for sketches, <br> PNG for transparency in a potograph
 Working with captions (kind ="subtitles/captions"), srclang - for language.
+Attribute: description, enables us to create vtt file that decribes visual elements in the video.
