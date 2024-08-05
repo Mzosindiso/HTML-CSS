@@ -20,3 +20,4 @@ For not breaking line we use - &nbsp
 HTTPS - HyperText Transport Protocol Secure.
 
 SVG format it is good for sketches, <br> PNG for transparency in a potograph
+Working with captions (kind ="subtitles/captions"), srclang - for language.
