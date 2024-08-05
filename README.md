@@ -1,7 +1,7 @@
 # HTML-CSS
 Html is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
 DOM - Document Object Model, it is important when working with CSS and JavaScript. <br>
-Elements that make text bold/italicized, <em> and <strong>. convey meaning and serve a language-related purpose. 
+Elements that make text bold/italicized, (<em> and <strong></strong>). convey meaning and serve a language-related purpose. 
 <i>, <b> do not carry any meaning.
 			
 			HTML 3 types of list tags
