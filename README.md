@@ -11,7 +11,7 @@ Elements that make text bold/italicized, <em> and <strong>. convey meaning and s
 	2. dd = definition description.
 - ul = unordered list.
 
-Superscipts - characters that are set above the normal baseline of text.
+Superscipts - characters that are set above the normal baseline of text. <br>
 Subscripts - characters that are set below the normal baseline of text.
 
 Global attributes - class, id, lang, dir.
