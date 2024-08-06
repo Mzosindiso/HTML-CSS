@@ -17,6 +17,9 @@ Subscripts - characters that are set below the normal baseline of text.
 Global attributes - class, id, lang, dir.
 For not breaking line we use - &nbsp
 
+HTML attribute that is used to provide additional information about an element (tooltip) - title. <br>
+HTML contenteditable attribute enables editing of the element's content.
+
 HTTPS - HyperText Transport Protocol Secure.
 
 SVG format it is good for sketches, <br> PNG for transparency in a potograph <br>
@@ -35,6 +38,19 @@ Meta element: informs the browser that the layout has been adjusted to support a
 
 HTML Table tags: table,tr,th, td. <br>
 HTML5 is called the living standards.
+
+			Cascading Style Sheets (CSS)
+-It is divided intop two parts:
+1. The selector.
+2. The declaration block.
+
+   p{
+	color: red;
+   } <br>
+p = selector. <br>
+color = property. <br>
+red = value. <br>
+declaration block consist of (property + value).
 
 WCAG - Web Content Accessibility Guidelines.
 
