@@ -32,3 +32,12 @@ Meta element: informs the browser that the layout has been adjusted to support a
 -aside.
 -section.
 -article.
+
+HTML Table tags: table,tr,th, td. <br>
+HTML5 is called the living standards.
+
+WCAG - Web Content Accessibility Guidelines.
+
+			Porfolio requirements
+- Professional bio, Acquired skills, Showcase completed projects, and get in touch.
+
