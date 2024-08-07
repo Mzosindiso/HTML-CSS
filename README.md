@@ -64,6 +64,10 @@ Flexbox - enables you to vertically center a block content inside its parent.
 
 WCAG - Web Content Accessibility Guidelines.
 
-			Porfolio requirements
+			Media Query Basics
+It consists of a media type (tells the browser what kind of media this code is for), <br> 
+Media expression (rule/test that must be passed for the contained CSS to be applied).
+
+			NB: Porfolio requirements
 - Professional bio, Acquired skills, Showcase completed projects, and get in touch.
 
