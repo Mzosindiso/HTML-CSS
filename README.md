@@ -52,6 +52,16 @@ color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
 
+			Pseudo-classes
+1. Pseudo classes start with a colon. <br>
+ - Is a selector that select elements in a specific state, e.g :hover, :focus are pseudo-class. They target some bit of the document that is in a certain state.
+2. Pseudo elements starts with a double colon. <br>
+ - They act as if a whole new HTML element markup has been added. e.g ::before <br>
+
+Flexbox - enables you to vertically center a block content inside its parent.
+- All columns, in a multiple column layout adopt the same height even if they contain different amount of content.
+
+
 WCAG - Web Content Accessibility Guidelines.
 
 			Porfolio requirements
