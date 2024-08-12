@@ -89,9 +89,16 @@ These are CSS statements that instruct how CSS should behave. They start with: @
 (ii) rem unit means "the root element's font-size" (rem stands for "root em").
 
 			Colors
-H - The base shade of the color.
-W - How white is the color.
-B - How black is the color.
+1. H - The base shade of the color. hwb() function<br>
+   W - How white is the color. <br>
+   B - How black is the color. <br>
+2. H - Hue. hsl() function <br>
+   S - Saturation. <br>
+   L - Lightness. <br>
+
+- Reduced test case, is a code example that demonstrate the problem in the simpliest way.
+-  
+
 
 			NB: Porfolio requirements
 - Professional bio, Acquired skills, Showcase completed projects, and get in touch. (HTML) <br>
