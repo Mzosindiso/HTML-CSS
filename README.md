@@ -78,8 +78,20 @@ Media expression (rule/test that must be passed for the contained CSS to be appl
 
 			CSS At Rules(@)
 These are CSS statements that instruct how CSS should behave. They start with: @ followed by identifier and CSS block.
+(i) Enables you to create a block of rules that will only apply to a specific subsection of the HTML on your page.
 
+- Cascade works by giving every property and a selector a weight, and the weight is a combination of what we call specifity.
+- If a class selector has more weight than the element selector, properties defined in the class style blocks will override those in the element style block.
+- The behaviour helps to avoid repetition in CSS
 
+			em & rem
+(i) em unit means "my parent element's font-size" if used for font-size. <br>
+(ii) rem unit means "the root element's font-size" (rem stands for "root em").
+
+			Colors
+H - The base shade of the color.
+W - How white is the color.
+B - How black is the color.
 
 			NB: Porfolio requirements
 - Professional bio, Acquired skills, Showcase completed projects, and get in touch. (HTML) <br>
