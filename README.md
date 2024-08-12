@@ -52,6 +52,14 @@ color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
 
+Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
+-If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
+
+			Absolute sizes and relative sizes: 
+(i) absolute sizes, do not change with screen size (pixels & points). <br>
+(ii) relative sizes, changes with screen size and zoom (percentage & rems) and it is better for flexibility.
+
+
 			Pseudo-classes
 1. Pseudo classes start with a colon. <br>
  - Is a selector that select elements in a specific state, e.g :hover, :focus are pseudo-class. They target some bit of the document that is in a certain state.
@@ -72,6 +80,8 @@ Media expression (rule/test that must be passed for the contained CSS to be appl
 These are CSS statements that instruct how CSS should behave. They start with: @ followed by identifier and CSS block.
 
 
+
 			NB: Porfolio requirements
-- Professional bio, Acquired skills, Showcase completed projects, and get in touch.
+- Professional bio, Acquired skills, Showcase completed projects, and get in touch. (HTML) <br>
+- Apply css to web pages, use selectors, manage color and multimedia, apply the box model, style hyperlinks.
 
