@@ -1,6 +1,7 @@
 # HTML-CSS
 Html is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
-DOM - Document Object Model, it is important when working with CSS and JavaScript. <br>
+DOM - Document Oriented Model, it is important when working with CSS and JavaScript. <br>
+HTML default font-size = 4. <br>
 Elements that make text bold/italicized, <em></em> and <strong></strong>. convey meaning and serve a language-related purpose. 
 <i></i>, <b></b> do not carry any meaning.
 			
@@ -39,6 +40,9 @@ Meta element: informs the browser that the layout has been adjusted to support a
 HTML Table tags: table,tr,th, td. <br>
 HTML5 is called the living standards.
 
+- div tags: are used to logically divide the document.
+ASCII - American Standard Code for Information Interchange.
+
 			Cascading Style Sheets (CSS)
 -It is divided intop two parts:
 1. The selector.
@@ -51,6 +55,8 @@ p = selector. <br>
 color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
+
+CSS property z-index - specifies the stacking order of positioned elements.
 
 Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
 -If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
