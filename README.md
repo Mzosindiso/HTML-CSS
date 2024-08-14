@@ -9,7 +9,7 @@ Elements that make text bold/italicized, <em></em> and <strong></strong>. convey
 - ol = ordered list.
 - dl = definition/description list.
 	1. dt = definition term.
-	2. dd = definition description.
+	2. dd = definition description/names.
 - ul = unordered list.
 
 Superscipts - characters that are set above the normal baseline of text. <br>
@@ -19,7 +19,8 @@ Global attributes - class, id, lang, dir.
 For not breaking line we use - &nbsp
 
 HTML attribute that is used to provide additional information about an element (tooltip) - title. <br>
-HTML contenteditable attribute enables editing of the element's content.
+HTML contenteditable attribute enables editing of the element's content. <br>
+Depecated attributes, are tags that are no longer valid to use.
 
 HTTPS - HyperText Transport Protocol Secure.
 
@@ -40,7 +41,7 @@ Meta element: informs the browser that the layout has been adjusted to support a
 HTML Table tags: table,tr,th, td. <br>
 HTML5 is called the living standards.
 
-- div tags: are used to logically divide the document.
+- div tags: are used to logically divide the document. <br>
 ASCII - American Standard Code for Information Interchange.
 
 			Cascading Style Sheets (CSS)
