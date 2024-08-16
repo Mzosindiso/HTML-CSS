@@ -57,6 +57,9 @@ color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
 
+display: block (the element generates a block box, generating line breaks both before and after the element when in the normal form)<br>
+display: inline (the elemenmt generates one or more inline boxes that do not generate line breaks before or after themselves)
+
 CSS property z-index - specifies the stacking order of positioned elements.
 
 Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
