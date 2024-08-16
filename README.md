@@ -1,16 +1,19 @@
 # HTML-CSS
-Html is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
+<strong>Html</strong> is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
 DOM - Document Oriented Model, it is important when working with CSS and JavaScript. <br>
 HTML default font-size = 4. <br>
+Elements, identify different parts of the HTML using tags.<br>
+Attributes, provide additional information about a particular instance of an element.<br>
 Elements that make text bold/italicized, <em></em> and <strong></strong>. convey meaning and serve a language-related purpose. 
 <i></i>, <b></b> do not carry any meaning.
 			
 			HTML 3 types of list tags
-- ol = ordered list.
+- ol = ordered/numbered list.
+- li = stands for (list items).
 - dl = definition/description list.
 	1. dt = definition term.
 	2. dd = definition description/names.
-- ul = unordered list.
+- ul = unordered/bulleted list.
 
 Superscipts - characters that are set above the normal baseline of text. <br>
 Subscripts - characters that are set below the normal baseline of text.
