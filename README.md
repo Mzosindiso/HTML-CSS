@@ -1,10 +1,10 @@
 # HTML-CSS
 <strong>Html</strong> is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
-DOM - Document Oriented Model, it is important when working with CSS and JavaScript. <br>
+<strong>DOM</strong> - Document Oriented Model, it is important when working with CSS and JavaScript. <br>
 HTML default font-size = 4. <br>
-Elements, identify different parts of the HTML using tags.<br>
-Attributes, provide additional information about a particular instance of an element.<br>
-Elements that make text bold/italicized, <em></em> and <strong></strong>. convey meaning and serve a language-related purpose. 
+<strong>Elements</strong>, identify different parts of the HTML using tags.<br>
+<strong>Attributes</strong>, provide additional information about a particular instance of an element.<br>
+<strong>Elements</strong> that make text bold/italicized, <em></em> and <strong></strong>. convey meaning and serve a language-related purpose. 
 <i></i>, <b></b> do not carry any meaning.
 			
 			HTML 3 types of list tags
@@ -59,6 +59,10 @@ p = selector. <br>
 color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
+
+(*) - This is a universal selector, matches any element type.<br>
+A relative link, your own style sheet.<br>
+An absolute link, a style sheet that doe not reside in your own site.
 
 display: block (the element generates a block box, generating line breaks both before and after the element when in the normal form)<br>
 display: inline (the elemenmt generates one or more inline boxes that do not generate line breaks before or after themselves)
