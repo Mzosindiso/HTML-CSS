@@ -114,8 +114,9 @@ These are CSS statements that instruct how CSS should behave. They start with: @
    L - Lightness. <br>
 
 - Reduced test case, is a code example that demonstrate the problem in the simpliest way.
--  
 
+			Aria
+- Accessible Rich Internet Applications, set of roles and attributes that define ways to make a web content and web applications more accessible to people with disabilities.
 
 			NB: Porfolio requirements
 - Professional bio, Acquired skills, Showcase completed projects, and get in touch. (HTML) <br>
