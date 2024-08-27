@@ -1,7 +1,8 @@
 # HTML-CSS
 <strong>Html</strong> is responsible for marking up content of a website, and it informs the user's computer about various elements on the page. <br>
 <strong>DOM</strong> - Document Oriented Model, it is important when working with CSS and JavaScript. <br>
-HTML default font-size = 4. <br>
+<strong>HTML</strong> default font-size = 4. <br>
+<strong>HTML</strong> is used for structure & semantics(meaning).
 <strong>Elements</strong>, identify different parts of the HTML using tags.<br>
 <strong>Attributes</strong>, provide additional information about a particular instance of an element.<br>
 <strong>Elements</strong> that make text bold/italicized, <em></em> and <strong></strong>. convey meaning and serve a language-related purpose. 
