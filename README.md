@@ -78,12 +78,11 @@ CSS property z-index - specifies the stacking order of positioned elements.
 4. Fixed – element not moving, fixed to the background even when scrolling the page. 
 5. Inherit – the selected/current element should use the same value for position as its parent element.
 
-Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
--If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
-
-			Absolute sizes and relative sizes: 
 (i) absolute sizes, do not change with screen size (pixels & points). <br>
 (ii) relative sizes, changes with screen size and zoom (percentage & rems) and it is better for flexibility.
+
+Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
+-If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
 
 
 			Pseudo-classes
