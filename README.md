@@ -70,6 +70,14 @@ display: inline (the elemenmt generates one or more inline boxes that do not gen
 
 CSS property z-index - specifies the stacking order of positioned elements.
 
+			Managing positions in CSS: 
+
+1. Static – default, elements flow according to the rules of normal flow. 
+2. Relative – elements are positioned relative to its normal position. 
+3. Absolute – elements are positioned relative to its first positioned ancestor element. 
+4. Fixed – element not moving, fixed to the background even when scrolling the page. 
+5. Inherit – the selected/current element should use the same value for position as its parent element.
+
 Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
 -If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
 
