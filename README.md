@@ -93,6 +93,12 @@ CSS property z-index - specifies the stacking order of positioned elements.
 Hexidecimals code notation - hex values consists of six digits long(numbers: zeo to nine, letters: A to F). <br>
 -If each two-digit pair is the same, it can be shortened, e.g(#776655 = #765). <br>
 
+Box model comsists of four main parts, margin, padding, content and border.
+1. Margin - space outside the border.
+2. Padding - space between the content and border.
+3. Content - the actual text, image or other media inside the element.
+4. Border - surrounds the padding/content if there is no padding.
+
 
 			Pseudo-classes
 1. Pseudo classes start with a colon. <br>
