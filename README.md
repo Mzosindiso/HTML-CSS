@@ -52,6 +52,7 @@ ASCII - American Standard Code for Information Interchange.
 -It is divided intop two parts:
 1. The selector.
 2. The declaration block.
+Selector specifies the pattern in HTML, and if that matches, the styles within the declaration block are applied to the coreesponding HTML elements.
 
    p{
 	color: red;
@@ -61,7 +62,15 @@ color = property. <br>
 red = value. <br>
 declaration block consist of (property + value).
 
-(*) - This is a universal selector, matches any element type.<br>
+			Types of Selectors
+1. Element selector
+2. Class selector
+3. ID selector
+4. Universal selector
+5. Descendant selector
+6. Attribute selector
+
+(*) - This is a universal selector, matches(targets) any element type.<br>
 A relative link, your own style sheet.<br>
 An absolute link, a style sheet that doe not reside in your own site.
 
