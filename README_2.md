@@ -4,12 +4,19 @@ If the script loads 1<sup>st</sup> and it is supposed to affect the HTML that ha
 <strong>Variable</strong> - container that holds the data values, (stores/update/manipulate information).<br>
 Javascript is <i><strong>case sensitive</i></strong>, <em>myVariable</em> is not the same as <em>myvariable</em>. <br>
 To declare a variable: we use <b>let, const</b>.
-let myVariable; (variable is now declared)<br>
-myVariable = "You"; (variable now has a value)<br>
+let myVariable; (variable is now declared, we use <em>let</em> to declare viariable).<br>
+const age = 9; (is used for constants)
+myVariable = "You"; (variable now has a value).<br>
 
-<center>Data Types</center>
+                            Data Types
 1. String -sequence of characters used to represent text enclosed with single/double quote marks (let myVariable = 'You'; / let myVariable = "You";).<br>
 2. Number -for numeric values, no quotes around them (let myVariable = 10;)
 3. Boolean -for conditions/logical operations, special keywords that do not need quote marks <i><b>(True/False)</i></b> (let myVariable = True; / let myVariable = False;).
 4. Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];)
 5. Object -can be anything, everything in Javascript is an object. Even the above examples fall under objects (let myVariable = document.querySelector('h1');).
+
+                            Types of Operators
+Operators -are mathematical symbols/keywords that produces results based on two variables/values.
+1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6****)
+
+
