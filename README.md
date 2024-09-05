@@ -145,3 +145,4 @@ These are CSS statements that instruct how CSS should behave. They start with: @
 - Professional bio, Acquired skills, Showcase completed projects, and get in touch. (HTML) <br>
 - Apply css to web pages, use selectors, manage color and multimedia, apply the box model, style hyperlinks.
 
+#JavaScript
