@@ -27,9 +27,17 @@ Functions -is a code snippet that can be called by other code, or itself even a 
 Scope -determines accessibility of functions and variables in different parts of code.<br>
 <ul>
   <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
-  <li>Local scope -variables declared within the function, cannot be accessed outside the function</li>
+  <li>Local scope -variables declared within the function, cannot be accessed outside the local function</li>
   <li>Function scope -variables declared within the function, only accessed within the function</li>
   <li>Block scope -variables declared with <i>let</i> or <i>const</i> within the block({}) are only accessible within that block</li>
-</ul>
+</ul><br>
 
+                          Methods for selecting elements
+<ul>
+  <li>getElementById</li>
+  <li>getElementByClassName</li>
+  <li>getElementByTagName</li>
+  <li>querySelector</li>
+  <li>querySelectorAll</li>
+</ul>
 
