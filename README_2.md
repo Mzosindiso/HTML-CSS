@@ -17,6 +17,12 @@ myVariable = "You"; (variable now has a value).<br>
 
                             Types of Operators
 Operators -are mathematical symbols/keywords that produces results based on two variables/values.
-1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6****)
+1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).
+2. Assignment operators -to assign values(=), (let myVariable = 90;).
+3. Comparison operators -test values if they are equal and of the same data type, return a boolean result(true/false). equal(==), strictly equal(===), not equal(!=), not strictly equal(!==), greater than or equal to(>=), less than or equal to(<=), greater than(>) and less than(<).
+4. Logical operators -used to combine multiple conditions, AND(&&), OR(||) and NOT(!).
+
+Expressions -combination of values/variables into a single value.
+
 
 
