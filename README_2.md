@@ -7,7 +7,7 @@ To declare a variable: we use <b>let, const</b>.
 let myVariable; (variable is now declared)<br>
 myVariable = "You"; (variable now has a value)<br>
 
-              Data Types
+                      Data Types
 1. String -sequence of characters used to represent text enclosed with single/double quote marks (let myVariable = 'You'; / let myVariable = "You";).<br>
 2. Number -for numeric values, no quotes around them (let myVariable = 10;)
 3. Boolean -for conditions/logical operations, special keywords that do not need quote marks <i><b>(True/False)</i></b> (let myVariable = True; / let myVariable = False;).
