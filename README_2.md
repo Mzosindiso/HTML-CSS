@@ -5,8 +5,8 @@ If the script loads 1<sup>st</sup> and it is supposed to affect the HTML that ha
 Javascript is <i><strong>case sensitive</i></strong>, <em>myVariable</em> is not the same as <em>myvariable</em>. <br>
 To declare a variable: we use <b>let, const</b>.
 let myVariable; (variable is now declared, we use <em>let</em> to declare viariable).<br>
-const age = 9; (is used for constants)
 myVariable = "You"; (variable now has a value).<br>
+const age = 9; (is used for constants)<br>
 
                             Data Types
 1. String -sequence of characters used to represent text enclosed with single/double quote marks (let myVariable = 'You'; / let myVariable = "You";).<br>
