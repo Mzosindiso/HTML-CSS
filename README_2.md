@@ -15,7 +15,7 @@ myVariable = "You"; (variable now has a value).<br>
 4. Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];)
 5. Object -can be anything, everything in Javascript is an object. Even the above examples fall under objects (let myVariable = document.querySelector('h1');).<br>
 
-                            Types of Operators
+                           Types of Operators
 Operators -are mathematical symbols/keywords that produces results based on two variables/values.
 1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).
 2. Assignment operators -to assign values(=), (let myVariable = 90;).
