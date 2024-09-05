@@ -22,7 +22,14 @@ Operators -are mathematical symbols/keywords that produces results based on two 
 3. Comparison operators -test values if they are equal and of the same data type, return a boolean result(true/false). equal(==), strictly equal(===), not equal(!=), not strictly equal(!==), greater than or equal to(>=), less than or equal to(<=), greater than(>) and less than(<).
 4. Logical operators -used to combine multiple conditions, AND(&&), OR(||) and NOT(!).
 
-Expressions -combination of values/variables into a single value.
-
+Expressions -combination of values/variables into a single value.<br>
+Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.<br>
+Scope -determines accessibility of functions and variables in different parts of code.<br>
+<ul>
+  <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
+  <li>Local scope -variables declared within the function, cannot be accessed outside the function</li>
+  <li>Function scope -variables declared within the function, only accessed within the function</li>
+  <li>Block scope -variables declared with <i>let</i> or <i>const</i> within the block({}) are only accessible within that block</li>
+</ul>
 
 
