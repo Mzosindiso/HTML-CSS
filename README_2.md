@@ -41,3 +41,4 @@ Scope -determines accessibility of functions and variables in different parts of
   <li>querySelectorAll</li>
 </ul>
 
+                        Events
