@@ -2,7 +2,7 @@
 We place JavaScript at the bottom of the page because, the browser reads the code in the order it appears in the file. <br>
 If the script loads 1<sup>st</sup> and it is supposed to affect the HTML that has not loaded yet, there could be some issues. Placing JavaScript near the bottom of an HTML page is one way to accommodate this dependency.<br>
 <strong>Variable</strong> - container that holds the data values, (stores/update/manipulate information).<br>
-Javascript is <i><strong>case sensitive</i></strong>, <em>myVariable</em> is not the same as <em>myvariable</em>. <br>
+Javascript is <i><strong>case sensitive</i></strong>, <em>myVariable</em> is not the same as <em>myvariable</em>. You can’t use JavaScript keywords as variable names.<br>
 To declare a variable: we use <b>let, const</b>.<br>
 <code>let myVariable; //variable is now declared, we use <em>let</em> to declare viariable.
 myVariable = "You"; //variable now has a value.
@@ -56,4 +56,18 @@ Scope -determines accessibility of functions and variables in different parts of
   <li>querySelectorAll</li>
 </ul>
 
-                        Events
+                          Statements
+If-else statement <code>let passMark = 50; // passing mark
+let failMark = 49; // failing mark
+
+// Function to check someone is passing or failing
+const checkResult = function(scoredMark) {
+    if (scoredMark >= passMark) {
+        console.log("Passed");
+    } else {
+        console.log("Failed");
+    }
+}
+// Calling the function with a score of 70
+checkResult(10);
+</code>
