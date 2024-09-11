@@ -9,7 +9,7 @@ myVariable = "You"; (variable now has a value).<br>
 const age = 9; (is used for constants)<br>
 
                             Data Types
-1. String -sequence of characters used to represent text enclosed with single/double quote marks (let myVariable = 'You'; / let myVariable = "You";).<br>
+1. String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; <br> let myVariable = "You";</code><br>
 2. Number -for numeric values, no quotes around them (let myVariable = 10;)
 3. Boolean -for conditions/logical operations, special keywords that do not need quote marks <i><b>(True/False)</i></b> (let myVariable = True; / let myVariable = False;).
 4. Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];)
@@ -24,8 +24,7 @@ Operators -are mathematical symbols/keywords that produces results based on two 
 
 Expressions -combination of values/variables into a single value.<br>
 Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.<br>
-<code>
-//This function takes parameters
+<code>//This function takes parameters
 const power = function(base, exponent){
     let results = 1
     for(let count = 0; count < exponent; count++){
@@ -39,8 +38,7 @@ console.log(power(3, 2))
 const makeNoise = function(){
     console.log("Ping")
 }
-makeNoise()
-</code>
+makeNoise()</code><br>
 Scope -determines accessibility of functions and variables in different parts of code.<br>
 <ul>
   <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
