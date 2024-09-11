@@ -24,7 +24,9 @@ Operators -are mathematical symbols/keywords that produces results based on two 
 
 Expressions -combination of values/variables into a single value.<br>
 Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.<br>
-1. //This function takes parameters
+1.
+<code>
+//This function takes parameters
 const power = function(base, exponent){
     let results = 1
     for(let count = 0; count < exponent; count++){
@@ -33,8 +35,8 @@ const power = function(base, exponent){
     return results
 }
 console.log(power(3, 2))
-
-2. //This function does not take parameters
+</code>
+3. //This function does not take parameters
 const makeNoise = function(){
     console.log("Ping")
 }
