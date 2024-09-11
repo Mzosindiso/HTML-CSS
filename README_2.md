@@ -3,7 +3,7 @@ We place JavaScript at the bottom of the page because, the browser reads the cod
 If the script loads 1<sup>st</sup> and it is supposed to affect the HTML that has not loaded yet, there could be some issues. Placing JavaScript near the bottom of an HTML page is one way to accommodate this dependency.<br>
 <strong>Variable</strong> - container that holds the data values, (stores/update/manipulate information).<br>
 Javascript is <i><strong>case sensitive</i></strong>, <em>myVariable</em> is not the same as <em>myvariable</em>. <br>
-To declare a variable: we use <b>let, const</b>.
+To declare a variable: we use <b>let, const</b>.<br>
 <code>let myVariable; //variable is now declared, we use <em>let</em> to declare viariable.
 myVariable = "You"; //variable now has a value.
 const age = 9; //is used for constants</code>
