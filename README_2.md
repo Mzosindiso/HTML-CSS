@@ -24,7 +24,6 @@ Operators -are mathematical symbols/keywords that produces results based on two 
 
 Expressions -combination of values/variables into a single value.<br>
 Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.<br>
-1.
 <code>
 //This function takes parameters
 const power = function(base, exponent){
@@ -35,12 +34,13 @@ const power = function(base, exponent){
     return results
 }
 console.log(power(3, 2))
-</code>
-3. //This function does not take parameters
+
+//This function does not take parameters
 const makeNoise = function(){
     console.log("Ping")
 }
 makeNoise()
+</code>
 Scope -determines accessibility of functions and variables in different parts of code.<br>
 <ul>
   <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
