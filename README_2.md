@@ -57,7 +57,9 @@ Scope -determines accessibility of functions and variables in different parts of
 </ul>
 
                           Statements
-If-else statement <code>let passMark = 50; // passing mark
+If-else statement: 
+<code>
+let passMark = 50; // passing mark
 let failMark = 49; // failing mark
 
 // Function to check someone is passing or failing
