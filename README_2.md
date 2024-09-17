@@ -7,6 +7,7 @@ To declare a variable: we use <b>let, const</b>.<br>
 <code>let myVariable; //variable is now declared, we use <em>let</em> to declare viariable.
 myVariable = "You"; //variable now has a value.
 const age = 9; //is used for constants</code>
+<b>Constant</b>: It’s a variable that’s read-only after its initial value is set.
 
                             Data Types
 1. String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code><br>
