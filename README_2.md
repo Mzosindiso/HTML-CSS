@@ -73,3 +73,9 @@ const checkResult = function(scoredMark) {
 // Calling the function with a score of 70
 checkResult(10);
 </code>
+
+                          ES6+
+<b>Template literals:</b> are delimited with backtick (<code>`</code>) characters, allowing for multi-line strings, string interpolation with embedded expressions.<br>
+<b>Arrow functions:</b> they don't have their own bindings and should not be used as methods: <code>() => expression</code>.<br>
+<b>Destructuring objects:</b> javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.<br>
+<b>The spread operator</b> (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements expected.
