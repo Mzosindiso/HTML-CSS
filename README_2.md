@@ -75,10 +75,23 @@ const checkResult = function(scoredMark) {
 checkResult(10);
 </code>
 
-                          ES6+
+                          ES6+ & (Asynchronous programming)
 1. <b>Template literals:</b> are delimited with backtick (<code>`</code>) characters, allowing for multi-line strings, string interpolation with embedded expressions.<br>
 2. <b>Arrow functions:</b> they don't have their own bindings and should not be used as methods: <code>() => expression</code>.<br>
 3. <b>Destructuring objects:</b> javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.<br>
 4. <b>The spread operator</b> (<code>...</code>) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements expected.<br>
-5. <b>Promise</b> asynchronous action that may complete at some point and produce a value. It is able to notify anyone who is interested when its value is available<br>
-6. 
+5. <b>Asynchronous</b>, process that allows an application to run a second set of instructions while focusing on its primary or basic process.
+6. <b>Promise</b> is an object that holds a future value of an async operation. It is able to notify anyone who is interested when its value is available<br>
+7. <b>Callback</b> is a function passed into another function as an argument, which is invoked inside the outer funtion to complete some action.
+8. 1. <code><i>async</i></code>, produces a promise when it is called, which is resolved when it returns and rejected when it throws an exception
+   2. <code><i>await</i></code>, used inside an <i>async</i> function to pause execution until the promise is resolved or rejected, making the code appear linear.
+9. <b>Error-handling</b>
+<code>
+try {
+  // Try to execute this code.
+}catch (exception) {
+  // If there is an exception, run this code.
+}finally {
+  // This always gets executed regardless of whether an error was thrown or not.
+}
+</code>
