@@ -61,7 +61,7 @@ makeNoise()</code><br>
   <li>Block scope -variables declared with <i>let</i> or <i>const</i> within the block({}) are only accessible within that block</li>
 </ul><br>
 
-                          Methods for selecting elements
+<h4>Methods for selecting elements</h4>
 <ul>
   <li>getElementById</li>
   <li>getElementByClassName</li>
@@ -70,7 +70,7 @@ makeNoise()</code><br>
   <li>querySelectorAll</li>
 </ul>
 
-                          Statements
+<h4>Statements</h4>
 If-else statement: 
 <code>
 let passMark = 50; // passing mark
@@ -88,17 +88,23 @@ const checkResult = function(scoredMark) {
 checkResult(10);
 </code>
 
-                          ES6+ & (Asynchronous programming)
-1. <b>Template literals:</b> are delimited with backtick (<code>`</code>) characters, allowing for multi-line strings, string interpolation with embedded expressions.<br>
-2. <b>Arrow functions:</b> they don't have their own bindings and should not be used as methods: <code>() => expression</code>.<br>
-3. <b>Destructuring objects:</b> javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.<br>
-4. <b>The spread operator</b> (<code>...</code>) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements expected.<br>
-5. <b>Asynchronous</b>, process that allows an application to run a second set of instructions while focusing on its primary or basic process.
-6. <b>Promise</b> is an object that holds a future value of an async operation. It is able to notify anyone who is interested when its value is available<br>
-7. <b>Callback</b> is a function passed into another function as an argument, which is invoked inside the outer funtion to complete some action.
-8. 1. <code><i>async</i></code>, produces a promise when it is called, which is resolved when it returns and rejected when it throws an exception
-   2. <code><i>await</i></code>, used inside an <i>async</i> function to pause execution until the promise is resolved or rejected, making the code appear linear.
-9. <b>Error-handling</b>
+<h4>ES6+ & (Asynchronous programming)</h4>
+<ol>
+  <li><b>Template literals:</b> are delimited with backtick (<code>`</code>) characters, allowing for multi-line strings, string interpolation with embedded expressions.</li>
+  <li><b>Arrow functions:</b> they don't have their own bindings and should not be used as methods: <code>() => expression</code>.</li>
+  <li><b>Destructuring objects:</b> javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.</li>
+  <li><b>The spread operator</b> (<code>...</code>) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for           function calls) or elements expected.</li>
+  <li><b>Asynchronous</b>, process that allows an application to run a second set of instructions while focusing on its primary or basic process.</li>
+  <li><b>Promise</b> is an object that holds a future value of an async operation. It is able to notify anyone who is interested when its value is available</li>
+  <li><b>Callback</b> is a function passed into another function as an argument, which is invoked inside the outer funtion to complete some action.</li>
+  <li>
+    <ul>
+      <li><code><i>async</i></code>, produces a promise when it is called, which is resolved when it returns and rejected when it throws an exception.</li>
+      <li><code><i>await</i></code>, used inside an <i>async</i> function to pause execution until the promise is resolved or rejected, making the code appear linear.</li>
+    </ul>
+    </li>
+  <li><b>Error-handling</b></li>
+</ol>
 <code>
 try {
   // Try to execute this code.
