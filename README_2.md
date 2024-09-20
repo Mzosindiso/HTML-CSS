@@ -19,14 +19,16 @@
   <li><b>Constant</b>: It’s a variable that’s read-only after its initial value is set.</li>
 </ul>
 
-<h4 style="text-align:center;">Data Types</h4>
-1. String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code><br>
-2. Number -for numeric values, no quotes around them (let myVariable = 10;)
-3. Boolean -for conditions/logical operations, special keywords that do not need quote marks <i><b>(True/False)</i></b> (let myVariable = True; / let myVariable = False;).
-4. Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];)
-5. Object -can be anything, everything in Javascript is an object. Even the above examples fall under objects (let myVariable = document.querySelector('h1');).<br>
+<h4>Data Types</h4>
+<ol>
+  <li>String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code></li>
+  <li>Number -for numeric values, no quotes around them (let myVariable = 10;).</li>
+  <li>Boolean -for conditions/logical operations, special keywords that do not need quote marks (let myVariable = True; / let myVariable = False;).</li>
+  <li>Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];).</li>
+  <li>Object -can be anything, everything in Javascript is an object. Even the above examples fall under objects (let myVariable = document.querySelector('h1');).</li>
+</ol>
 
-                           Types of Operators
+<h4>Types of Operators</h4>
 Operators -are mathematical symbols/keywords that produces results based on two variables/values.
 1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).
 2. Assignment operators -to assign values(=), (let myVariable = 90;).
