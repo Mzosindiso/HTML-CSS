@@ -19,7 +19,7 @@
   <li><b>Constant</b>: It’s a variable that’s read-only after its initial value is set.</li>
 </ul>
 
-                            <h4>Data Types</h4>
+<h4>Data Types</h4>
 1. String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code><br>
 2. Number -for numeric values, no quotes around them (let myVariable = 10;)
 3. Boolean -for conditions/logical operations, special keywords that do not need quote marks <i><b>(True/False)</i></b> (let myVariable = True; / let myVariable = False;).
