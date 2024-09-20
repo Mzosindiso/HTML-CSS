@@ -95,3 +95,8 @@ try {
   // This always gets executed regardless of whether an error was thrown or not.
 }
 </code>
+
+<ul>
+  <li>HTTP module is essential for creating web servers and handling HTTP requests and responses. It allows you to build the backbone of web applications and APIs.</li>
+  <li>The FS module allows you to interact with the file system, enabling you to read, write, delete, and manipulate files within your Node.js applications.</li>
+</ul>
