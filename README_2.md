@@ -1,4 +1,11 @@
 # JavaScript
+<h1>Why learn JavaScript</h1>
+<ol>
+  <li>Popularity - one of the most used languages</li>
+  <li>Versatility - used for many different things, webpages, APIs, mobile apps</li>
+  <li>Easy to learn - compared to other loweer languages</li>
+  <li>Community - support, resources and tools</li>
+</ol>
 We place JavaScript at the bottom of the page because, the browser reads the code in the order it appears in the file. <br>
 If the script loads 1<sup>st</sup> and it is supposed to affect the HTML that has not loaded yet, there could be some issues. Placing JavaScript near the bottom of an HTML page is one way to accommodate this dependency.<br>
 <strong>Variable</strong> - container that holds the data values, (stores/update/manipulate information).<br>
