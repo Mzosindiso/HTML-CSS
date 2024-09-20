@@ -1,5 +1,5 @@
 # JavaScript
-<h1>Why learn JavaScript</h1>
+<h4>Why learn JavaScript</h4>
 <ol>
   <li>Popularity - one of the most used languages</li>
   <li>Versatility - used for many different things, webpages, APIs, mobile apps</li>
