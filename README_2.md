@@ -21,22 +21,23 @@
 
 <h4>Data Types</h4>
 <ol>
-  <li>String -sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code></li>
-  <li>Number -for numeric values, no quotes around them (let myVariable = 10;).</li>
-  <li>Boolean -for conditions/logical operations, special keywords that do not need quote marks (let myVariable = True; / let myVariable = False;).</li>
-  <li>Array -allows you to store multiple values into a single reference/variable (let myVariable = [31, 12, 23];).</li>
-  <li>Object -can be anything, everything in Javascript is an object. Even the above examples fall under objects (let myVariable = document.querySelector('h1');).</li>
+  <li>String - sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code></li>
+  <li>Number - for numeric values, no quotes around them <code>(let myVariable = 10;).</code></li>
+  <li>Boolean - for conditions/logical operations, special keywords that do not need quote marks <code>(let myVariable = True; / let myVariable = False;).</code></li>
+  <li>Array - allows you to store multiple values into a single reference/variable <code>(let myVariable = [31, 12, 23];).</code></li>
+  <li>Object - can be anything, everything in Javascript is an object. Even the above examples fall under objects <code>(let myVariable = document.querySelector('h1');).</code></li>
 </ol>
 
 <h4>Types of Operators</h4>
-Operators -are mathematical symbols/keywords that produces results based on two variables/values.
-1. Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).
-2. Assignment operators -to assign values(=), (let myVariable = 90;).
-3. Comparison operators -test values if they are equal and of the same data type, return a boolean result(true/false). equal(==), strictly equal(===), not equal(!=), not strictly equal(!==), greater than or equal to(>=), less than or equal to(<=), greater than(>) and less than(<).
-4. Logical operators -used to combine multiple conditions, AND(&&), OR(||) and NOT(!).
-
-Expressions -combination of values/variables into a single value.<br>
-Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.<br>
+<h6>Operators - are mathematical symbols/keywords that produces results based on two variables/values.</h6>
+<ol>
+  <li>Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).</li>
+  <li>Assignment operators -to assign values(=), (let myVariable = 90;).</li>
+  <li>Comparison operators -test values if they are equal and of the same data type, return a boolean result(true/false). equal(==), strictly equal(===), not equal(!=),        not strictly equal(!==), greater than or equal to(>=), less than or equal to(<=), greater than(>) and less than(<).</li>
+  <li>Logical operators -used to combine multiple conditions, AND(&&), OR(||) and NOT(!).</li>
+</ol>
+<p>Expressions -combination of values/variables into a single value.<br>
+Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.</p>
 <code>//This function takes parameters
 const power = function(base, exponent){
     let results = 1
@@ -52,7 +53,7 @@ const makeNoise = function(){
     console.log("Ping")
 }
 makeNoise()</code><br>
-Scope -determines accessibility of functions and variables in different parts of code.<br>
+<p>Scope -determines accessibility of functions and variables in different parts of code.</p>
 <ul>
   <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
   <li>Local scope -variables declared within the function, cannot be accessed outside the local function</li>
