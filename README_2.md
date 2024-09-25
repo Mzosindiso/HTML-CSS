@@ -105,6 +105,7 @@ checkResult(10);
     </li>
   <li><b>Error-handling</b></li>
 </ol>
+<p>The fetch API is an example of an API that uses promises over callbacks. </p>
 <code>
 try {
   // Try to execute this code.
@@ -117,5 +118,6 @@ try {
 
 <ul>
   <li>HTTP module is essential for creating web servers and handling HTTP requests and responses. It allows you to build the backbone of web applications and APIs.</li>
+  <li>HTTP is a client/server protocol. Requests are initiated by client and server will respond with a "response".</li>
   <li>The FS module allows you to interact with the file system, enabling you to read, write, delete, and manipulate files within your Node.js applications.</li>
 </ul>
