@@ -38,7 +38,9 @@
 </ol>
 <p>Expressions -combination of values/variables into a single value.<br>
 Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.</p>
-<code>//This function takes parameters
+
+```html
+//This function takes parameters
 const power = function(base, exponent){
     let results = 1
     for(let count = 0; count < exponent; count++){
@@ -52,7 +54,8 @@ console.log(power(3, 2))
 const makeNoise = function(){
     console.log("Ping")
 }
-makeNoise()</code><br>
+makeNoise()
+```
 <p>Scope -determines accessibility of functions and variables in different parts of code.</p>
 <ul>
   <li>Global scope -variables declared outside of any function, can be accessed from anywhere in the code</li>
@@ -72,7 +75,8 @@ makeNoise()</code><br>
 
 <h4>Statements</h4>
 If-else statement: 
-<code>
+
+```html
 let passMark = 50; // passing mark
 let failMark = 49; // failing mark
 
@@ -86,7 +90,8 @@ const checkResult = function(scoredMark) {
 }
 // Calling the function with a score of 70
 checkResult(10);
-</code>
+```
+
 
 <h4>ES6+ & (Asynchronous programming)</h4>
 <ol>
