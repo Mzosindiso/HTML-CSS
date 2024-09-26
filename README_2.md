@@ -12,9 +12,14 @@
   <li><strong>Variable</strong> - container that holds the data values, (stores/update/manipulate information).</li>
   <li>Javascript is case sensitive, <em>myVariable</em> is not the same as <em>myvariable</em>. You can’t use JavaScript keywords as variable names.</li>
   <li>To declare a variable: we use <b>let, const</b>.<br>
-  <code>let myVariable; //variable is now declared, we use <em>let</em> to declare viariable.
+    
+  ```html
+  <script>
+    let myVariable; //variable is now declared, we use <em>let</em> to declare viariable.
     myVariable = "You"; //variable now has a value.
-  const age = 9; //is used for constants</code>
+  const age = 9; //is used for constants
+  </script>
+  ```
   </li>
   <li><b>Constant</b>: It’s a variable that’s read-only after its initial value is set.</li>
 </ul>
@@ -40,6 +45,7 @@
 Functions -is a code snippet that can be called by other code, or itself even a variable that refers to a function.</p>
 
 ```html
+<script>
 //This function takes parameters
 const power = function(base, exponent){
     let results = 1
@@ -55,6 +61,7 @@ const makeNoise = function(){
     console.log("Ping")
 }
 makeNoise()
+</script>
 ```
 <p>Scope -determines accessibility of functions and variables in different parts of code.</p>
 <ul>
@@ -77,6 +84,7 @@ makeNoise()
 If-else statement: 
 
 ```html
+<script>
 let passMark = 50; // passing mark
 let failMark = 49; // failing mark
 
@@ -90,6 +98,7 @@ const checkResult = function(scoredMark) {
 }
 // Calling the function with a score of 70
 checkResult(10);
+</script>
 ```
 
 
@@ -111,7 +120,9 @@ checkResult(10);
   <li><b>Error-handling</b></li>
 </ol>
 <p>The fetch API is an example of an API that uses promises over callbacks. </p>
-<code>
+
+```html
+<script>
 try {
   // Try to execute this code.
 }catch (exception) {
@@ -119,7 +130,8 @@ try {
 }finally {
   // This always gets executed regardless of whether an error was thrown or not.
 }
-</code>
+</script>
+```
 
 <ul>
   <li>HTTP module is essential for creating web servers and handling HTTP requests and responses. It allows you to build the backbone of web applications and APIs.</li>
@@ -127,26 +139,3 @@ try {
   <li>The FS module allows you to interact with the file system, enabling you to read, write, delete, and manipulate files within your Node.js applications.</li>
 </ul>
 
-```html
-<html>
-<body>
-<p id="click">Hello world</p>
-```
-- This defines a simple HTML document with a paragraph (`<p>`) element.
-- The paragraph contains the text "Hello world" and has an `id` attribute set to "click". This `id` allows us to uniquely identify this element in the DOM (Document Object Model).
-
-### JavaScript Code
-```html
-<script>
-document.getElementById('click').textContent = "Molo";
-</script>
-```
-- This JavaScript code runs after the HTML content is loaded.
-- `document.getElementById('click')` is used to access the paragraph element with the `id` of "click".
-- `.textContent = "Molo"` updates the text inside that paragraph from "Hello world" to "Molo".
-
-### Purpose
-The overall purpose of this code is to dynamically change the text displayed in the paragraph element when the page is loaded. You’re effectively replacing the initial greeting "Hello world" with a new greeting "Molo" using JavaScript.
-
-### Summary
-When the page is opened, the text "Hello world" will be replaced by "Molo" as soon as the JavaScript code executes. This demonstrates how JavaScript can interact with HTML elements and change their content dynamically.
