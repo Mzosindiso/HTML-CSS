@@ -121,3 +121,27 @@ try {
   <li>HTTP is a client/server protocol. Requests are initiated by client and server will respond with a "response".</li>
   <li>The FS module allows you to interact with the file system, enabling you to read, write, delete, and manipulate files within your Node.js applications.</li>
 </ul>
+
+```html
+<html>
+<body>
+<p id="click">Hello world</p>
+```
+- This defines a simple HTML document with a paragraph (`<p>`) element.
+- The paragraph contains the text "Hello world" and has an `id` attribute set to "click". This `id` allows us to uniquely identify this element in the DOM (Document Object Model).
+
+### JavaScript Code
+```html
+<script>
+document.getElementById('click').textContent = "Molo";
+</script>
+```
+- This JavaScript code runs after the HTML content is loaded.
+- `document.getElementById('click')` is used to access the paragraph element with the `id` of "click".
+- `.textContent = "Molo"` updates the text inside that paragraph from "Hello world" to "Molo".
+
+### Purpose
+The overall purpose of this code is to dynamically change the text displayed in the paragraph element when the page is loaded. You’re effectively replacing the initial greeting "Hello world" with a new greeting "Molo" using JavaScript.
+
+### Summary
+When the page is opened, the text "Hello world" will be replaced by "Molo" as soon as the JavaScript code executes. This demonstrates how JavaScript can interact with HTML elements and change their content dynamically.
