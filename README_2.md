@@ -24,7 +24,7 @@
   <li><b>Constant</b>: It’s a variable that’s read-only after its initial value is set.</li>
 </ul>
 
-<h4>Data Types</h4>
+# <h4>Data Types</h4>
 <ol>
   <li>String - sequence of characters used to represent text enclosed with single/double quote marks <code>let myVariable = 'You'; let myVariable = "You";</code></li>
   <li>Number - for numeric values, no quotes around them <code>(let myVariable = 10;).</code></li>
@@ -33,7 +33,7 @@
   <li>Object - can be anything, everything in Javascript is an object. Even the above examples fall under objects <code>(let myVariable = document.querySelector('h1');).</code></li>
 </ol>
 
-<h4>Types of Operators</h4>
+# <h4>Types of Operators</h4>
 <h6>Operators - are mathematical symbols/keywords that produces results based on two variables/values.</h6>
 <ol>
   <li>Arithmetic operators -addition(6+9), multiplication(6*9), subtraction(6-9), division(6/9), modulus(6%9) and exponential(6**).</li>
@@ -71,7 +71,7 @@ makeNoise()
   <li>Block scope -variables declared with <i>let</i> or <i>const</i> within the block({}) are only accessible within that block</li>
 </ul><br>
 
-<h4>Methods for selecting elements</h4>
+# <h4>Methods for selecting elements</h4>
 <ul>
   <li>getElementById</li>
   <li>getElementByClassName</li>
@@ -80,7 +80,7 @@ makeNoise()
   <li>querySelectorAll</li>
 </ul>
 
-<h4>Statements</h4>
+# <h4>Statements</h4>
 If-else statement: 
 
 ```html
@@ -102,7 +102,7 @@ checkResult(10);
 ```
 
 
-<h4>ES6+ & (Asynchronous programming)</h4>
+# <h4>ES6+ & (Asynchronous programming)</h4>
 <ol>
   <li><b>Template literals:</b> are delimited with backtick (<code>`</code>) characters, allowing for multi-line strings, string interpolation with embedded expressions.</li>
   <li><b>Arrow functions:</b> they don't have their own bindings and should not be used as methods: <code>() => expression</code>.</li>
