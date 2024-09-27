@@ -96,7 +96,7 @@ const checkResult = function(scoredMark) {
         console.log("Failed");
     }
 }
-// Calling the function with a score of 70
+// Calling or Invoking the function with a score of 70 (Passing argument)
 checkResult(10);
 </script>
 ```
@@ -119,6 +119,8 @@ checkResult(10);
     </li>
   <li><b>Error-handling</b></li>
 </ol>
+<h4>APIs</h4>
+<p>An API is a web service: It delivers resources via web technologies such as HTTP.</p>
 <p>The fetch API is an example of an API that uses promises over callbacks. </p>
 
 ```html
