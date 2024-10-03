@@ -1,8 +1,15 @@
 # React
 <p>React is a popular library used to create user interfaces. React components use Pascal case (or upper camel case) variable names</p>
-<p>Component: Components allow us to reuse the same DOM structure for different recipes or different sets of data.</p>
+<p>Component: is an independent, reusable code block which divides the UI into smaller pieces.</p>
 <ul>
-    <li>Function component - </li>
+    <li>Function component - is basically a JavaScript/ES6 function that returns a React element (JSX)</li>
+    ```bash
+    <script>
+        function Welcome(props) {
+              return <h1>Hello, {props.name}</h1>;
+        }
+    </script>
+    ```
     <li>Class-based component - </li>
     <li>Presentational component - </li>
     <li>Container components - </li>
