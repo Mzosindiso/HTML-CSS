@@ -1,7 +1,5 @@
 # HTML-CSS
 
-```markdown
-
 1. **HTML** is responsible for marking up the content of a website and informs the user's computer about various elements on the page.
 2. **DOM** (Document Object Model) is important when working with CSS and JavaScript.
 3. **HTML** default font-size is 16px.
