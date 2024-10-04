@@ -41,28 +41,5 @@
 
 <p>Hooks works similarly with JavaScript variables (store data and later perform operations on that data), but they are designed to manage state in functional components</p>
 
-```html
-<script>
-import { useState } from 'react';
-
-export default function MyInput() {
-  const [text, setText] = useState('hello');
-
-  function handleChange(changeText) {
-    setText(changeText.target.value);
-  }
-
-  return (
-    <>
-      <input value={text} onChange={handleChange} />
-      <p>You typed: {text}</p>
-      <button onClick={() => setText('hello')}>
-        Reset
-      </button>
-    </>
-  );
-}
-</script>
-```
 
 
