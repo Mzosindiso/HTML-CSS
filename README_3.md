@@ -40,6 +40,9 @@
 ### Hooks <br>
 
 <p>Hooks works similarly with JavaScript variables (store data and later perform operations on that data), but they are designed to manage state in functional components</p>
+1. useState is a Hook that lets you add React state to function components. <br>
+2. The useEffect Hook is useful to perform additional work behind the scenes, without affecting the appearance of the webpage.<br>
 
+React Router is a powerful library for managing navigation and routing in React applications. It allows you to create a multi-page experience in a single-page application by mapping URLs to components. 
 
 
